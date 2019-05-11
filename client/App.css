@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+}
+
+.AppHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  background: #f7f1e3;
+}
+
+.AppTitle {
+  display: flex;
+  width: 25vw;
+  border-right: 1px solid #ccc;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #f7f1e3;
+}
+
+@media (max-width: 768px) {
+  .AppTitle {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.AppRoom {
+  display: flex;
+  width: 75vw;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.AppBody {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 60px);
+}
+
+.MessageWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  flex: 1;
+  background: #fafafa;
+}

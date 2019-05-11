@@ -1,0 +1,40 @@
+.Users {
+  display: flex;
+  width: 25%;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  background: #f6feff;
+}
+
+.UsersOnline {
+  padding: 20px;
+  text-align: center;
+  background: #e5fdd3;
+  border-bottom: 1px solid #ccc;
+}
+
+.UsersList {
+  margin: 0;
+  padding: 0;
+}
+
+.UserItem {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 20px;
+  background: #fff;
+}
+
+.UserLogged {
+  background: #ffeddc;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .UserItem {
+    padding: 5px;
+    overflow: hidden;
+  }
+}

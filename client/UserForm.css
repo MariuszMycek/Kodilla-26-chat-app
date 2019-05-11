@@ -1,0 +1,30 @@
+.UserForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #f7f1e3;
+}
+
+.UserInput {
+  padding: 20px;
+  font-size: 2em;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  width: 530px;
+  background: #f7f1e3;
+  text-align: center;
+}
+
+.UserInput:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .UserInput {
+    width: 80%;
+    font-size: 0.95em;
+    padding-bottom: 5px;
+  }
+}
